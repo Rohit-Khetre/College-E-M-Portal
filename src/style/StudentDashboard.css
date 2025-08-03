@@ -1,0 +1,71 @@
+.nav-hover:hover {
+          background-color: var(--accent-color);
+          color: #fff !important;
+          border-radius: 4px;
+          padding: 5px;
+        }
+
+        .stat-card {
+          background-color: var(--accent-color);
+          color: white;
+          padding: 20px;
+        }
+
+        .event-card h6 {
+          color: var(--text);
+        }
+
+        .sidebar {
+            background-color: rgba(69, 2, 255, 0.166);
+        }
+
+        .event-cover,.cover-pic {
+          width: 300px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+        .nav-hover{
+          text-decoration: none;
+          font-weight: 800;
+        }
+        .reg-pic{
+          width: 300px;
+          height: 200px;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+        .status{
+          background-color: var(--accent-color);
+        }
+        /* Optional hover style for Edit Profile button */
+button.btn-primary:hover {
+  background-color: #EC4899; /* Accent */
+  border-color: #03090e;
+}
+
+.result-card {
+  background-color: #f9f9ff;
+  border-left: 5px solid #6366F1;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  border-radius: 1rem;
+}
+
+.result-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.15);
+}
+
+.text-theme {
+  color: #111827;
+}
+
+.position-badge {
+  background-color: #22C55E;
+  color: white;
+  padding: 6px 14px;
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 999px;
+}
+

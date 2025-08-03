@@ -1,0 +1,26 @@
+.step-number {
+  width: 60px;
+  height: 60px;
+  background-color: var(--accent-color);
+  color: white;
+  font-size: 24px;
+  line-height: 60px;
+  border-radius: 50%;
+}
+
+
+.btn-light {
+  color: #111827;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-light:hover {
+  background-color: #EC4899;
+  color: white;
+}
+
+.btn-outline-light:hover {
+  background-color: #6366F1;
+  color: white;
+}
