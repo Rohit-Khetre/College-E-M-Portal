@@ -1,0 +1,54 @@
+/* Admin Theme Background */
+.admin-bg {
+  background-color: var(--background);
+}
+
+/* Headings & Theme Text */
+.text-theme {
+  color: var(--text);
+}
+
+/* Buttons */
+.btn-accent {
+  background-color: var(--accent);
+  color: #fff;
+  border: none;
+}
+.btn-accent:hover {
+  background-color: #d63384;
+  color: #fff;
+}
+
+/* Event Cards */
+.event-card {
+  transition: all 0.3s ease-in-out;
+}
+.event-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(99, 102, 241, 0.2);
+}
+
+/* Primary Text */
+.text-primary-theme {
+  color: var(--primary);
+}
+.report-bg {
+  background-color: #f9fafb;
+  color: #111827;
+}
+
+.report-card {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #6366F1;
+  color: white;
+}
+
+.table tbody tr:hover {
+  background-color: #EC4899;
+  color: white;
+  transition: 0.3s;
+}

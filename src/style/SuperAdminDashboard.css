@@ -1,0 +1,127 @@
+:root {
+  --primary: #e278d4;
+  --accent: #EC4899;
+  --background: #F9FAFB;
+  --text: #111827;
+  --success: #22C55E;
+}
+
+/* Navbar */
+.superadmin-navbar {
+  background-color: var(--primary);
+  color: white;
+}
+
+/* Sidebar */
+.superadmin-sidebar {
+  background-color: #D8CEF7;
+  min-height: 100vh;
+  min-width: vh
+}
+
+.nav-link {
+  color: var(--text);
+  font-weight: 500;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-decoration: none;
+}
+
+.nav-hover:hover {
+  background-color: var(--accent);
+  color: white !important;
+  border-radius: 8px;
+}
+
+.nav-link.active {
+  background-color: var(--accent);
+  color: white !important;
+  border-radius: 8px;
+}
+
+/* Logout Button */
+.logout-btn:hover {
+  background-color: var(--accent);
+  color: white;
+}
+/* Stat Cards */
+.stat-card {
+  background-color: var(--accent);
+  color: white;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.stat-card h6 {
+  font-weight: 500;
+  opacity: 0.9;
+}
+
+.stat-card h3 {
+  font-weight: bold;
+}
+.superadmin-navbar {
+  background-color: #f9fbfd; /* preferred background color */
+  border: none !important;  /* removes any border */
+  box-shadow: none !important; /* removes shadow if present */
+  color: #111827; /* text color black-ish */
+}
+
+
+.logout-btn:hover {
+  background-color: #faf5f5 !important; /* slightly lighter on hover */
+}
+.superadmin-sidebar {
+  width: 100%;
+  max-width: 250px; /* only limits on larger screens */
+}
+
+@media (max-width: 768px) {
+  .superadmin-sidebar {
+    max-width: 100%;
+  }
+}
+.responsive-logo {
+  width: 120px; /* default for laptops */
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .responsive-logo {
+    width: 90px; /* smaller for mobile */
+  }
+}
+/* Sidebar Base */
+.superadmin-sidebar {
+  background: #fff;
+  min-height: 100vh;
+  border-right: 1px solid #eee;
+}
+
+/* Sidebar Links */
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  padding: 10px 12px;
+  margin-bottom: 6px;
+  color: #333;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+/* Hover */
+.sidebar-link:hover {
+  background: #f8d7e5; /* light pink hover */
+  color: #c2185b;
+}
+
+/* Active (Pink Tab) */
+.sidebar-link.active {
+  background: #d54893; /* pink */
+  color: #fff !important;
+  font-weight: 600;
+}

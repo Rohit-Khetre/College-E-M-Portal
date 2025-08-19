@@ -3,11 +3,13 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import logo from '../assets/logo.png';
-import '../style/Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer-custom mt-4 text-white py-4">
+    <footer
+      className="mt-4 py-4"
+      style={{ backgroundColor: 'black', color: 'white' }}
+    >
       <Container>
         <Row className="text-center">
           <Col xs={12} md={4} className="mb-3 mb-md-0">
@@ -15,7 +17,7 @@ function Footer() {
             <p className="footer-link">📧 contact@campuswave.com</p>
           </Col>
           <Col xs={12} md={4} className="mb-3 mb-md-0">
-            <h6>Team Infiniti</h6>
+            <h6>Team Infinity</h6>
             <p>Ankita | Rohit | Vaibhav | Parth</p>
           </Col>
           <Col xs={12} md={4}>

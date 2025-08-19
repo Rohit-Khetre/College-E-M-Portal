@@ -44,7 +44,8 @@ function Landing() {
           <Row className="align-items-center">
             <Col xs={12} md={6} className="text-center text-md-start mb-4 mb-md-0">
               <h1 className="display-4 fw-bold mb-3">
-                Welcome to <span className="text-primary">CampusWave</span>
+                Welcome to <span className="text-Primary">CampusWave</span>
+
               </h1>
               <p className="lead text-secondary mb-4">
                 Your ultimate platform for managing campus events with ease and elegance.
@@ -155,14 +156,17 @@ function Landing() {
               </Button>
             </Col>
             <Col xs={12} md={4}>
-              <Button variant="outline-light" className="w-100" disabled>
-                🛠 Admin Dashboard (Coming Soon)
+              <Button variant="light" as={Link} to="/AdminDashboard" className="w-100" >
+                🛠 Admin Dashboard 
               </Button>
             </Col>
-            <Col xs={12} md={4}>
-              <Button variant="outline-light" className="w-100" disabled>
-                🧠 Super Admin Dashboard (Coming Soon)
-              </Button>
+           <Col xs={12} md={4}>
+              <Button variant="light"
+                 as={Link}
+                to="/dashboard"
+                className="w-100">
+                🎓 Super admin
+        </Button>
             </Col>
           </Row>
         </Container>

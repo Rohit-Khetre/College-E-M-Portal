@@ -10,7 +10,23 @@ import Event from './pages/Event';
 import EventRegister from './pages/EventRegister';
 import MyEvents from './pages/MyEvents';
 import Results from './pages/Results';
-import ProfilePage from './pages/ProfilePage';
+import StudentProfile from './pages/StudentProfile';
+import SuperAdminDashboard from './pages/SuperAdminDashboard';
+import ManageUsers from './pages/ManageUsers';
+import ManageEvents from './pages/ManageEvents';
+import ReportPage from './pages/ReportPage';
+import SuperAdminProfile from './pages/SuperAdminProfile';
+import AdminDashboard from './pages/AdminDashboard';
+import RegisteredStudents from './pages/RegisteredStudents';
+import UploadResults from './pages/UploadResults';
+import ManageEventsPage from './pages/ManageEventsPage';
+import AdminReportPage from './pages/AdminReportPage';
+import CreateEventPage from './pages/CreateEventPage';
+import EditEventsPage from './pages/EditEventsPage';
+import ViewEventPage from './pages/ViewEventsPage';
+import AdminProfile from './pages/AdminProfile';
+
+
 
 function App() {
   return (
@@ -25,11 +41,29 @@ function App() {
         {/* 🔹 Student Dashboard Pages */}
         <Route path="/student" element={<StudentDashboard />} />
         <Route path="/event/:eventId" element={<EventDetails />} />
-        <Route path="/event" element={<Event />} />
+        <Route path="/student-events" element={<Event />} />
         <Route path="/register/:eventId" element={<EventRegister />} />
-        <Route path="/my-events" element={<MyEvents />} />
-        <Route path="/results" element={<Results />} />
-        <Route path="/profile" element={<ProfilePage />} />
+        <Route path="/student-MyEvents" element={<MyEvents />} />
+        <Route path="/student-result" element={<Results />} />
+        <Route path="/student-profile" element={<StudentProfile />} />
+      
+        
+         <Route path="/dashboard" element={<SuperAdminDashboard />} />
+          <Route path="/manage-users" element={<ManageUsers />} />
+        <Route path="/manage-events" element={<ManageEvents />} />
+        <Route path="/reports" element={<ReportPage />} />
+        <Route path="/SuperAdminProfile" element={<SuperAdminProfile />} />
+
+        <Route path="/Admindashboard" element={<AdminDashboard />} />
+        <Route path="/Registered-Students" element={<RegisteredStudents />} />
+        <Route path="/Upload-Result" element={<UploadResults/>} />
+        <Route path="/events" element={<ManageEventsPage/>} />
+        <Route path="/report" element={<AdminReportPage/>} />
+        <Route path="/Admin-Profile" element={<AdminProfile/>} />
+        
+        <Route path="/create-event" element={<CreateEventPage/>} />
+      <Route path="/edit-event" element={<EditEventsPage />} />
+      <Route path="/view-event" element={<ViewEventPage/>}  />   
       </Routes>
     </BrowserRouter>
   );

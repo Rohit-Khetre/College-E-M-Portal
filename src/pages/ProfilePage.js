@@ -2,19 +2,19 @@ import React, { useState } from "react";
 import { Card, Row, Col, Button, Modal, Form } from "react-bootstrap";
 import "../style/StudentDashboard.css";
 import logo from "../assets/logo.png"
-import rohit from "../assets/rohit.jpeg";
+import ankita from "../assets/ankita.jpg";
 
 const ProfilePage = () => {
   const [showModal, setShowModal] = useState(false);
   const [student, setStudent] = useState({
-    name: "Rohit Khetre",
-    email: "rohit@example.com",
-    institute: "Ashok Institute Of Engineering",
-    institutecode: "1560",
-    branch: "Computer Engineering",
-    rollNo: "D23CO101",
+    name: "Ankita shinde",
+    email: "ankita@example.com",
+    institute: "Mit polytechnic, chh.sambhaji nagar",
+    institutecode: "2291",
+    branch: " Electronic And Computer Engineering",
+    rollNo: "48",
     year: "Final Year",
-    profilePic: rohit,
+    profilePic: ankita,
   });
 
   const handleChange = (e) => {
@@ -36,8 +36,8 @@ const ProfilePage = () => {
 
   return (
     <div className="p-4">
-      <h4 className="text-primary mb-4">My Profile</h4>
-      <Card className="shadow-sm p-4">
+      <h4 className="text-Primary mb-5">My Profile</h4>
+      <Card className="shadow-sm p-5">
         <Row>
           <Col md={4} className="text-center">
             <img
