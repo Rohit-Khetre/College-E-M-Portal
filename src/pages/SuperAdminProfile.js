@@ -2,21 +2,20 @@ import React, { useState } from "react";
 import { Card, Row, Col, Button, Modal, Form } from "react-bootstrap";
 import "../style/StudentDashboard.css";
 import logo from "../assets/logo.png";
-import ankita from "../assets/ankita.jpg";
 import SuperAdminSidebar from "../component/SuperAdminSidebar";
 import SuperAdminNavbar from "../component/SuperAdminNavbar";
 
 const SuperAdminprofile = () => {
   const [showModal, setShowModal] = useState(false);
   const [student, setStudent] = useState({
-    name: "Ankita Shinde",
-    email: "ankita@example.com",
-    institute: "MIT Polytechnic, Chh. Sambhaji Nagar",
-    institutecode: "2291",
-    branch: "Electronic And Computer Engineering",
-    rollNo: "48",
-    year: "Final Year",
-    profilePic: ankita,
+    name: "",
+    email: "",
+    institute: "",
+    institutecode: "",
+    branch: "",
+    rollNo: "",
+    year: "",
+    profilePic: "",
   });
 
   const handleChange = (e) => {
@@ -48,7 +47,7 @@ const SuperAdminprofile = () => {
         <SuperAdminNavbar />
 
         <div className="p-4">
-          <h4 className="text-primary mb-5">My Profile</h4>
+          <h4 className="fw-bold mb-4">My Profile</h4>
           <Card className="shadow-sm p-5 rounded-4 border-0">
             <Row>
               {/* Profile Left Side */}

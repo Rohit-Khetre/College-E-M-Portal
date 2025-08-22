@@ -3,8 +3,6 @@ import React, { useState } from "react";
 import { Card, Row, Col, Button, Modal, Form } from "react-bootstrap";
 import "../style/StudentDashboard.css";
 import logo from "../assets/logo.png";
-import ankita from "../assets/ankita.jpg";
-
 // ✅ Import missing components
 import AdminNavbar from "../component/AdminNavbar";
 import AdminSidebar from "../component/AdminSidebar";
@@ -12,14 +10,14 @@ import AdminSidebar from "../component/AdminSidebar";
 const ProfilePage = () => {
   const [showModal, setShowModal] = useState(false);
   const [student, setStudent] = useState({
-    name: "Ankita Shinde",
-    email: "ankita@example.com",
-    institute: "MIT Polytechnic, Chh. Sambhaji Nagar",
-    institutecode: "2291",
-    branch: "Electronic And Computer Engineering",
-    rollNo: "48",
-    year: "Final Year",
-    profilePic: ankita,
+    name: "",
+    email: "",
+    institute: "",
+    institutecode: "",
+    branch: "",
+    rollNo: "",
+    year: "",
+    profilePic: ""
   });
 
   // Handle text input changes
@@ -53,7 +51,7 @@ const ProfilePage = () => {
       <div className="flex-grow-1">
         <AdminNavbar />
         <div className="p-4">
-          <h4 className="text-primary mb-4">My Profile</h4>
+          <h4 className="fw-bold mb-4">My Profile</h4>
 
           <Card className="shadow-sm p-4">
             <Row>

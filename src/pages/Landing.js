@@ -142,7 +142,15 @@ function Landing() {
         </Container>
       </section>
 
-      <section className="bg-dark text-white py-5 mt-5">
+
+
+
+
+
+
+
+
+       <section className="bg-dark text-white py-5 mt-5">
         <Container>
           <h4 className="mb-4">🔐 Dashboard Preview (For Mam)</h4>
           <p className="mb-4">Click to walkthrough each dashboard automatically</p>
@@ -167,10 +175,50 @@ function Landing() {
                 className="w-100">
                 🎓 Super admin
         </Button>
+
             </Col>
           </Row>
         </Container>
       </section>
+
+      <div> 
+         <Button
+                as={Link}
+                to="/loading"
+                style={{
+                  border: '2px solid #EC4899',
+                  color: '#EC4899',
+                  backgroundColor: 'transparent',
+                }}
+                className="fw-semibold"
+              >
+                Loader
+              </Button>
+              <Button
+                as={Link}
+                to="/unauthorized"
+                style={{
+                  border: '2px solid #EC4899',
+                  color: '#EC4899',
+                  backgroundColor: 'transparent',
+                }}
+                className="fw-semibold"
+              >
+                UN page
+              </Button>
+              <Button
+                as={Link}
+                to="/notfoundpage"
+                style={{
+                  border: '2px solid #EC4899',
+                  color: '#EC4899',
+                  backgroundColor: 'transparent',
+                }}
+                className="fw-semibold"
+              >
+                NF pages 
+              </Button>
+      </div> 
 
       <Footer />
     </>

@@ -1,0 +1,30 @@
+.utility-container {
+  min-height: 100vh;
+  background: var(--background);
+  color: var(--text);
+}
+
+.utility-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+.utility-text {
+  color: #6b7280;
+  margin-bottom: 1rem;
+}
+
+.utility-btn {
+  background: var(--accent);
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+.utility-btn:hover {
+  background: #db2777; /* accent hover */
+  transform: translateY(-2px);
+}

@@ -55,7 +55,7 @@ const MyEvents = () => {
         <StudentNavbar />
 
         <Container className="p-4">
-          <h4 className="mb-4 text-primary">My Registered Events</h4>
+          <h4 className="fw-bold mb-4">My Registered Events</h4>
           <Row>
             {myRegisteredEvents.map((event) => (
               <Col md={6} key={event.id}>

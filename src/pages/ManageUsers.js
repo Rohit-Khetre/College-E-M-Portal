@@ -11,7 +11,8 @@ const ManageUsers = () => {
  <div className="flex-grow-1"> <SuperAdminNavbar /> {}
 
     <Container fluid className="py-4">
-      <h3 className="mb-4">Manage Users</h3>
+      <h4 className="fw-bold mb-4">Manage Users</h4>
+      
       <Table bordered hover responsive>
         <thead>
           <tr>

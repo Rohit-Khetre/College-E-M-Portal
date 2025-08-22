@@ -18,11 +18,11 @@ function Footer() {
           </Col>
           <Col xs={12} md={4} className="mb-3 mb-md-0">
             <h6>Team Infinity</h6>
-            <p>Ankita | Rohit | Vaibhav | Parth</p>
+            <p>Ankita | Rohit </p>
           </Col>
           <Col xs={12} md={4}>
             <h6>© 2025 CampusWave</h6>
-            <div className="footer-logo-box">
+            <div className="footer-logo-box bg-light rounded-pill">
               <img src={logo} alt="CampusWave Logo" height="40" />
             </div>
           </Col>

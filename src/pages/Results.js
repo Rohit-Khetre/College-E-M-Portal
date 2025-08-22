@@ -54,7 +54,7 @@ const Results = () => {
         <StudentNavbar />
 
         <Container className="p-4">
-          <h4 className="mb-4 text-primary">🎉 My Event Results</h4>
+          <h4 className="fw-bold mb-4">My Event Results 🎉</h4>
           <Row>
             {filteredResults.length === 0 ? (
               <p className="text-muted">No results available yet.</p>

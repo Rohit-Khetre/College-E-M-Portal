@@ -8,7 +8,7 @@ const AdminNavbar = () => {
 
   return (
     <>
-      <Navbar bg="light" className="px-3">
+      <Navbar bg="light" className="px-3 sticky-top">
         <Container fluid>
           {/* Mobile Menu Button */}
           <button

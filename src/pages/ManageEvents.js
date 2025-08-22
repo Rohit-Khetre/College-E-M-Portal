@@ -48,7 +48,8 @@ const ManageEvents = () => {
         <SuperAdminNavbar />
 
         <div style={{ padding: "20px", fontFamily: "Arial" }}>
-          <h2 style={{ color: colors.primary, fontWeight: "bold" }}>Manage Events</h2>
+          <h4 className="fw-bold mb-4">Manage Events</h4>
+          
 
           {/* Search + Button */}
           <div

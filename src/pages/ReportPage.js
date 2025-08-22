@@ -89,7 +89,8 @@ const ReportPage = () => {
           {/* Header */}
           <Row className="mb-4 align-items-center">
             <Col>
-              <h3 style={{ color: theme.primary }}>📑 Reports</h3>
+            <h4 className="fw-bold mb-4">📑 Reports</h4>
+              
             </Col>
             <Col className="text-end">
               <Button

@@ -10,7 +10,7 @@ import Event from './pages/Event';
 import EventRegister from './pages/EventRegister';
 import MyEvents from './pages/MyEvents';
 import Results from './pages/Results';
-import StudentProfile from './pages/StudentProfile';
+import StudentProfile from './pages/ProfilePage';
 import SuperAdminDashboard from './pages/SuperAdminDashboard';
 import ManageUsers from './pages/ManageUsers';
 import ManageEvents from './pages/ManageEvents';
@@ -25,8 +25,9 @@ import CreateEventPage from './pages/CreateEventPage';
 import EditEventsPage from './pages/EditEventsPage';
 import ViewEventPage from './pages/ViewEventsPage';
 import AdminProfile from './pages/AdminProfile';
-
-
+import NotFoundPage from './pages/NotFoundPage';
+import UnauthorizedPage from './pages/UnauthorizedPage';
+import LoadingPage  from './pages/LoadingPage';
 
 function App() {
   return (
@@ -64,6 +65,11 @@ function App() {
         <Route path="/create-event" element={<CreateEventPage/>} />
       <Route path="/edit-event" element={<EditEventsPage />} />
       <Route path="/view-event" element={<ViewEventPage/>}  />   
+
+
+      <Route path="*" element={<NotFoundPage />} />
+<Route path="/unauthorized" element={<UnauthorizedPage />} />
+<Route path="/loading" element={<LoadingPage />} />
       </Routes>
     </BrowserRouter>
   );

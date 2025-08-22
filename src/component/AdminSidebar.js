@@ -3,10 +3,11 @@ import { LayoutDashboard, Calendar, FileText, Settings, LogOut } from "lucide-re
 import { NavLink } from "react-router-dom";
 import "../style/AdminDashboard.css";
 import logo from '../assets/logo.png';
+import { Link } from "react-router-dom";
 
 const AdminSidebar = () => {
   return (
-    <div className="superadmin-sidebar p-3">
+    <div className="superadmin-sidebar sticky-xl-top p-3">
       {/* Top Logo Only */}
       <div className="sidebar-logo mb-4 text-center d-none d-md-block mx-auto">
         <img 
@@ -44,9 +45,9 @@ const AdminSidebar = () => {
 
       {/* Logout Button */}
       <div className="mt-4">
-        <button className="btn btn-light text-danger w-100 d-flex align-items-center justify-content-center">
+        <NavLink as={Link} to="/" className="btn btn-light text-danger w-100 d-flex align-items-center justify-content-center">
           <LogOut className="me-2" size={18} /> Logout
-        </button>
+        </NavLink>
       </div>
     </div>
   );

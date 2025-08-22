@@ -10,15 +10,15 @@ import "../style/StudentDashboard.css";
 const upcomingEvents = [
   {
     name: "Hackathon 2025",
-    img: "https://via.placeholder.com/400x200?text=Hackathon+2025",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRp78tUa6bN763rzT0yMpy671PSGUke2uVTRQ&s",
   },
   {
     name: "Tech Fest",
-    img: "https://via.placeholder.com/400x200?text=Tech+Fest",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1DPL5ykE7GeNmY6FYEHP61Fl_x_6BYk7dIg&s",
   },
   {
     name: "Cultural Fest",
-    img: "https://via.placeholder.com/400x200?text=Cultural+Fest",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBExqa5Vu6PJbFj3HOnv4uRkVA2iorQGsORw&s",
   },
 ];
 

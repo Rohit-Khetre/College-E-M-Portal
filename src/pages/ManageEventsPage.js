@@ -48,7 +48,9 @@ const ManageEventsPage = () => {
           {/* Header with Create Event Button */}
           <Row className="mb-4 align-items-center">
             <Col>
-              <h2 className="fw-bold text-theme">Manage Events</h2>
+            <h4 className="fw-bold mb-4">Manage Events</h4>
+
+              
             </Col>
             <Col xs="auto">
             

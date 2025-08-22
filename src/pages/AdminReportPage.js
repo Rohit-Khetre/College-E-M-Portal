@@ -136,7 +136,7 @@ const ReportPage = () => {
       <div className="flex-grow-1">
         <AdminNavbar />
         <Container fluid className="py-4 super-admin-bg min-vh-100">
-          <h3 className="fw-bold mb-4 text-primary">📊 Admin Reports</h3>
+          <h4 className="fw-bold mb-4">📊 Admin Reports</h4>
 
           {/* 🔽 Dropdown + Download */}
           <Row className="mb-4">

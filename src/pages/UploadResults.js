@@ -59,9 +59,9 @@ const UploadResultPage = () => {
             <Col md={10}>
               <Card className="shadow-lg border-0 rounded-4">
                 <Card.Body>
-                  <h3 className="fw-bold mb-4" style={{ color: "#6366F1" }}>
+                  <h4 className="fw-bold mb-4" style={{ color: "#0a0a0aff" }}>
                     Upload Event Results
-                  </h3>
+                  </h4>
 
                   {/* Form */}
                   <Row className="g-3 align-items-end">
