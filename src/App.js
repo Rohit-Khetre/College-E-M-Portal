@@ -60,7 +60,7 @@ function App() {
         <Route path="/Upload-Result" element={<UploadResults/>} />
         <Route path="/events" element={<ManageEventsPage/>} />
         <Route path="/report" element={<AdminReportPage/>} />
-        <Route path="/Admin-Profile" element={<AdminProfile/>} />
+        <Route path="/admin-profile" element={<AdminProfile/>} />
         
         <Route path="/create-event" element={<CreateEventPage/>} />
       <Route path="/edit-event" element={<EditEventsPage />} />

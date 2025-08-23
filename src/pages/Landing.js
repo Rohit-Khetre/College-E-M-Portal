@@ -150,7 +150,7 @@ function Landing() {
 
 
 
-       <section className="bg-dark text-white py-5 mt-5">
+       {/* <section className="bg-dark text-white py-5 mt-5">
         <Container>
           <h4 className="mb-4">🔐 Dashboard Preview (For Mam)</h4>
           <p className="mb-4">Click to walkthrough each dashboard automatically</p>
@@ -179,9 +179,9 @@ function Landing() {
             </Col>
           </Row>
         </Container>
-      </section>
+      </section> */}
 
-      <div> 
+      {/* <div> 
          <Button
                 as={Link}
                 to="/loading"
@@ -218,7 +218,7 @@ function Landing() {
               >
                 NF pages 
               </Button>
-      </div> 
+      </div>  */}
 
       <Footer />
     </>
